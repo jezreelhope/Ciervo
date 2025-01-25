@@ -6,44 +6,49 @@
     <title>Jezreel Hope Ciervo</title>
     <style>
         body {
-            background-color: #f8f8f8; 
-            font-family: "Arial", sans-serif; 
-            font-size: 16px; /* Increased font size for readability */
+            background-color: beige; 
+            font-family: "Calibri", sans-serif; 
+            font-size: 13px; /* Slightly larger font for readability */
             text-align: center;
             margin: 0;
             padding: 0;
         }
 
         .container {
-            max-width: 900px; 
+            max-width: 900px;
             margin: 50px auto;
             padding: 30px;
-            background-color: #ffffff; 
+            background-color: #ffffff;
             border-radius: 15px;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Added more prominent shadow for effect */
+            box-shadow: 0 6px 25px rgba(0, 0, 0, 0.1); /* Modern box shadow */
+            transition: transform 0.3s ease;
+        }
+
+        .container:hover {
+            transform: scale(1.02); /* Added hover effect for a subtle zoom-in */
         }
 
         h1 {
-            color: #2e3b4e; 
-            font-size: 2.8em; 
+            color: #333333;
+            font-size: 2.8em;
             margin-bottom: 30px;
+            font-weight: bold;
         }
 
         p {
             color: #333333; 
-            font-size: 16px; /* Slightly larger font size */
-            line-height: 1.6;
+            font-size: 15px; /* Larger font for easy reading */
+            line-height: 1.7;
             margin-bottom: 20px;
             text-align: justify;
         }
 
-        /* Image Styling */
         .photo img, .personal-info img {
             width: 300px;
             max-width: 100%;
             height: auto;
-            border-radius: 10px;
-            margin-bottom: 15px;
+            border-radius: 12px;
+            margin-bottom: 20px;
             display: block;
             margin-left: auto;
             margin-right: auto;
@@ -53,7 +58,7 @@
             margin-top: 40px;
             display: flex;
             justify-content: center;
-            gap: 30px;
+            gap: 40px; /* Increased spacing for better visual appeal */
         }
 
         .social-links a {
@@ -62,24 +67,25 @@
 
         .social-links a img {
             width: 70px;
-            height: auto;
+            height: 70px;
             border-radius: 50%;
-            transition: transform 0.3s ease;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
 
         .social-links a:hover img {
-            transform: scale(1.1); /* Added hover effect */
+            transform: scale(1.1); /* Smooth scale effect */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Subtle shadow on hover */
         }
 
         .support-info, .blessing-text, .closing-text {
             margin-top: 20px;
             font-weight: bold;
-            color: #2e3b4e;
+            color: #333333;
         }
 
         .divider {
             margin: 40px 0;
-            border-top: 2px solid #cccccc;
+            border-top: 2px solid #e0e0e0;
         }
 
         .contact-info {
@@ -90,6 +96,21 @@
 
         .contact-info p {
             margin-bottom: 10px;
+        }
+
+        /* Added responsive design */
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            .social-links {
+                gap: 30px;
+            }
         }
     </style>
 </head>
