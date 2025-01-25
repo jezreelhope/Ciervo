@@ -6,9 +6,9 @@
     <title>Jezreel Hope Ciervo</title>
     <style>
         body {
-            background-color: beige; 
-            font-family: "Calibri", sans-serif; 
-            font-size: 13px;
+            background-color: #f8f8f8; 
+            font-family: "Arial", sans-serif; 
+            font-size: 16px; /* Increased font size for readability */
             text-align: center;
             margin: 0;
             padding: 0;
@@ -18,22 +18,23 @@
             max-width: 900px; 
             margin: 50px auto;
             padding: 30px;
-            background-color: #e0e0e0; 
+            background-color: #ffffff; 
             border-radius: 15px;
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); 
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Added more prominent shadow for effect */
         }
 
         h1 {
-            color: #333333; 
-            font-size: 2.5em; 
-            margin-bottom: 20px;
+            color: #2e3b4e; 
+            font-size: 2.8em; 
+            margin-bottom: 30px;
         }
 
         p {
-            color: #000000; 
-            font-size: 15px;
-            line-height: 1.5;
-            margin-bottom: 15px;
+            color: #333333; 
+            font-size: 16px; /* Slightly larger font size */
+            line-height: 1.6;
+            margin-bottom: 20px;
+            text-align: justify;
         }
 
         /* Image Styling */
@@ -42,30 +43,53 @@
             max-width: 100%;
             height: auto;
             border-radius: 10px;
-            margin-bottom: 10px;
+            margin-bottom: 15px;
             display: block;
             margin-left: auto;
             margin-right: auto;
         }
 
         .social-links {
-            margin-top: 30px;
+            margin-top: 40px;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
         }
 
         .social-links a {
             display: inline-block;
-            margin-right: 20px;
         }
 
         .social-links a img {
-            width: 60px;
+            width: 70px;
             height: auto;
             border-radius: 50%;
+            transition: transform 0.3s ease;
+        }
+
+        .social-links a:hover img {
+            transform: scale(1.1); /* Added hover effect */
         }
 
         .support-info, .blessing-text, .closing-text {
             margin-top: 20px;
             font-weight: bold;
+            color: #2e3b4e;
+        }
+
+        .divider {
+            margin: 40px 0;
+            border-top: 2px solid #cccccc;
+        }
+
+        .contact-info {
+            margin-top: 40px;
+            color: #333333;
+            font-size: 16px;
+        }
+
+        .contact-info p {
+            margin-bottom: 10px;
         }
     </style>
 </head>
@@ -105,6 +129,8 @@
                 In return for your partnership, I will send monthly updates about my personal, ministry, and academic journey. I will also include you and your family in my prayers. Any amount you can give would be greatly appreciated. Once I reach my tuition target, I am willing to return any excess funds as a sign of my integrity.
             </p>
 
+            <div class="divider"></div>
+
             <p class="support-info">
                 <strong>Ways to Send Your Support:</strong><br>
                 Account Name: <strong>JEZREEL HOPE CIERVO</strong><br>
@@ -122,6 +148,8 @@
             </p>
         </div>
 
+        <div class="divider"></div>
+
         <h1>Social Media</h1>
         <div class="social-links">
             <a href="https://www.facebook.com/chosen.jezreelhope/" target="_blank">
@@ -132,8 +160,10 @@
             </a>
         </div>
 
-        <p><strong>Email:</strong> jezciervo@yahoo.com</p>
-        <p><strong>Mobile Number:</strong> +63 976-1359578 / +63 956-1356083</p>
+        <div class="contact-info">
+            <p><strong>Email:</strong> jezciervo@yahoo.com</p>
+            <p><strong>Mobile Number:</strong> +63 976-1359578 / +63 956-1356083</p>
+        </div>
     </div>
 
     <script>
